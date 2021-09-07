@@ -1,0 +1,6 @@
+.git
+*.md
+
+#server files
+node_modules
+.gitignore 
