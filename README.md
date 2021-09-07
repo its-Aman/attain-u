@@ -9,11 +9,21 @@
 
 ### How to Run
 
+#### With Docker
 - `docker-compose.yml` file is used to bundle the environment.
 - Run the project by running the following commands.
 - `docker-compose up -d`
 - The server app will run at 'localhost:3000'.
 - The Mongo server will be up on 27017 port.
+- Navigate to the app by visiting [http://localhost:3000/api/v1/](http://localhost:3000/api/v1/) in your browser.
+- There you'll see the Hi message.
+- Now start playing with the app as you wish.
+
+#### Without Docker
+- Please make sure you've mongodb installed locally and is listening on port 27017
+- Please make sure you've node installed
+- run `npm install`. This will install all the dependencies
+- run `npm run build && npm run start:prod`. This will create a dist folder and run the server on port 3000.
 - Navigate to the app by visiting [http://localhost:3000/api/v1/](http://localhost:3000/api/v1/) in your browser.
 - There you'll see the Hi message.
 - Now start playing with the app as you wish.
