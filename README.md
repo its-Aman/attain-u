@@ -36,6 +36,7 @@
 - JWT is the modern standard of the modern web, it also helps to bundle user information and pass it between client and server.
 - The server is based on NestJS, and the implementation of JWT is to build on top of Passport. Passport also gives many [strategy](http://www.passportjs.org/packages/) for authentication.
 - The APIs are supporting Versioning. So we can release new versions after adding new features.
+- You'll find all the api's in the [Postman Collection](https://raw.githubusercontent.com/its-Aman/attain-u/master/AttainU.postman_collection.json)
 - `/api/v1/auth/login` request is `POST`. Pass the body as 
 
   ```
